@@ -49,7 +49,6 @@ public:
 
     VIRTUAL_METHOD(const Vector&, obbMins, 1, (), (this))
     VIRTUAL_METHOD(const Vector&, obbMaxs, 2, (), (this))
-    VIRTUAL_METHOD(int, get_solid, 11, (), (this))
 };
 
 class EconItemView {

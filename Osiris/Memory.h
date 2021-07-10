@@ -128,8 +128,6 @@ public:
     void** uiComponentInventory;
     void(__THISCALL* setItemSessionPropertyValue)(void* _this, std::uint64_t itemID, const char* type, const char* value);
 
-    bool(__thiscall* isBreakableFn)(Entity*);
-
     short makePanoramaSymbol(const char* name) const noexcept
     {
         short symbol;
